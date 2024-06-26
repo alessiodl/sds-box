@@ -1,0 +1,12 @@
+gdal
+pandas
+geopandas
+openpyxl
+plotly
+xarray
+rioxarray
+pystac-client
+odc-stac
+ipykernel
+jupyterlab
+distro
