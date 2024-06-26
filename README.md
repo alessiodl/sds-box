@@ -42,7 +42,16 @@ Ovviamente potete mappare qualunque altra cartella!
 
 <img src="screenshot_jupyter.png" alt="jupyter">
 
+### Personalizzazione
+Il template è fatto in modo tale da poter essere personalizzato in modo piuttosto semplice. Aggiungi (o rimuovi!) i pacchetti che ti interessano nel file _requirements.txt_ e ricrea il container.
+
+```
+docker build . -t sds-box
+```
+
 ### Crediti
+L'idea di questo repository è nata dalla lettura di:
+
  * https://docs.docker.com/guides/use-case/jupyter/
  * https://www.geocorner.net/post/don-t-install-python-for-data-science-use-docker-instead
  * https://www.geocorner.net/post/configuring-a-minimal-docker-image-for-spatial-analysis-with-python
