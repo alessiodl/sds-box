@@ -29,7 +29,7 @@ Il terminale mostrerà un link che, una volta aperto nel browser, darà accesso 
 <img src="screenshot_terminale.png" alt="terminale">
 
 ### Per fare sul serio (mappare i volumi)
-Per un utilizzo reale è il caso di mappare nel container una directory del sistema locale (es: la directory del progetto su cui stiamo lavorando!) in modo da rendere persistenti i file su cui lavoriamo. 
+Per un utilizzo reale è il caso di mappare nel container una directory del sistema locale, ad esempio la directory del progetto su cui stiamo lavorando! 
 Supponiamo di aver scaricato sds-box sul desktop, possiamo lanciarla in questo modo:
 
 ```
