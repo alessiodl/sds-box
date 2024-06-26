@@ -23,7 +23,9 @@ Una volta creato il container (la prima volta potrebbe volerci qualche minuto do
 docker run -p 8888:8888 sds-box
 ```
 
-Il terminale mostrerà un link che, una volta aperto nel browser, darà accesso all'ambiente Jupyter.
+Il terminale mostrerà un link che, una volta aperto nel browser, darà accesso all'ambiente Jupyter:
+
+<img src="screenshot_terminale.png"/>
 
 Sebbene ciò sia sufficiente per testare l'ambiente, per un utilizzo reale è il caso di mappare nel container una directory del sistema locale (es: la directory del progetto su cui stiamo lavorando!). 
 Supponiamo di aver scaricato sds-box sul desktop, possiamo lanciarla in questo modo:
