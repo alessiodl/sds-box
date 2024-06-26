@@ -26,7 +26,7 @@ docker run -p 8888:8888 sds-box
 
 Il terminale mostrerà un link che, una volta aperto nel browser, darà accesso all'ambiente Jupyter:
 
-<img src="screenshot_terminale.png"/>
+<img src="screenshot_terminale.png" alt="terminale">
 
 ### Per fare sul serio (mappare i volumi)
 Per un utilizzo reale è il caso di mappare nel container una directory del sistema locale (es: la directory del progetto su cui stiamo lavorando!). 
@@ -38,7 +38,9 @@ docker run -p 8888:8888 -v /Users/alessio/Desktop/sds-box/Projects:/app/Projects
 
 Così facendo mapperemo la cartella "Projects" e tutte le sue sottocartelle all'interno del container e tutti i file e le cartelle che inseriremo in Projects resteranno in maniera persistente sulla nostra macchina. 
 All'interno della cartella Projects fornita col repository troverete dei notebook di esempio. 
-Ovviamente potete mappare qualunque altra cartella
+Ovviamente potete mappare qualunque altra cartella!
+
+<img src="screenshot_jupyter.png" alt="jupyter">
 
 ### Crediti
  * https://docs.docker.com/guides/use-case/jupyter/
