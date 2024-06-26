@@ -18,7 +18,7 @@ La label <mark>sds-box</mark> può essere sostituita a piacimento, per esempio c
 ## Avvio dell'ambiente Jupyter
 
 ### Per giocare
-Una volta creato il container (la prima volta potrebbe volerci qualche minuto dovuto più che altro all'installazione delle dipendenze nel file _requirements.txt_) è possibile eseguirlo lanciando questo comando:
+Una volta creato il container (la prima volta potrebbe volerci qualche minuto dovuto all'installazione delle dipendenze) è possibile eseguirlo lanciando questo comando:
 
 ```
 docker run -p 8888:8888 sds-box
