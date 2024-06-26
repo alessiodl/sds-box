@@ -1,6 +1,9 @@
 # sds-box
 Template per container orientato alla **Spatial Data Science** con Python, comprensivo delle principali librerie e di un ambiente **JupyterLab**.
 
+### Perché?
+L'utilizzo dei container offre diversi vantaggi (...da completare...)
+
 ### Requisiti
 L'unico requisito è avere Docker sul proprio computer
 
