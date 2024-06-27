@@ -40,6 +40,14 @@ Supponiamo di aver scaricato sds-box sul desktop, possiamo lanciarla in questo m
 docker run -p 8888:8888 -v /Users/alessio/Desktop/sds-box/Projects:/app/Projects sds-box
 ```
 
+il parametro **-v** indica a Docker che si vuole lanciare sds-box mappando una cartella del proprio computer (volume locale) all'interno del container. Dunque, se volessimo mappare una la cartella _C:\Progetti\MioProgetto_ all'interno del container, potremmo scrivere
+
+```
+docker run -p 8888:8888 -v C:\Progetti\MioProgetto:/app/MioProgetto sds-box
+```
+
+In questo modo creeremo la cartella MioProgetto all'interno della working directory (app) di sds-box che sarà mappata con la corrispondente cartella locale. 
+
 Così facendo mapperemo la cartella "Projects" e tutte le sue sottocartelle all'interno del container e tutti i file e le cartelle che inseriremo in Projects resteranno in maniera persistente sulla nostra macchina. 
 All'interno della cartella Projects fornita col repository troverete dei notebook di esempio. 
 Ovviamente potete mappare qualunque altra cartella!
