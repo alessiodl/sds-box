@@ -62,7 +62,7 @@ docker build . -t sds-box
 ```
 
 ### Crediti
-L'idea di questo repository è nata dalla lettura di:
+L'idea di sds-box è nata dalla lettura di:
 
  * https://docs.docker.com/guides/use-case/jupyter/
  * https://www.geocorner.net/post/don-t-install-python-for-data-science-use-docker-instead
