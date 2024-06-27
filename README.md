@@ -47,7 +47,7 @@ Ovviamente potete mappare qualunque altra cartella!
 <img src="screenshot_jupyter.png" alt="jupyter">
 
 ### Personalizzazione
-Il template è fatto in modo tale da poter essere personalizzato in modo piuttosto semplice. Aggiungi (o rimuovi!) i pacchetti che ti interessano nel file _requirements.txt_ e ricrea il container.
+Il template è fatto in modo tale da poter essere personalizzato in modo piuttosto semplice. Aggiungi (o rimuovi!) i pacchetti che ti interessano modificando il file _requirements.txt_ e ricrea il container.
 
 ```
 docker build . -t sds-box
