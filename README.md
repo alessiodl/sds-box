@@ -40,7 +40,11 @@ Supponiamo di aver scaricato sds-box sul desktop, possiamo lanciarla in questo m
 docker run -p 8888:8888 -v /Users/alessio/Desktop/sds-box/Projects:/app/Projects sds-box
 ```
 
-il parametro **-v** indica a Docker che si vuole lanciare sds-box mappando una cartella del proprio computer (volume locale) all'interno del container. Dunque, se volessimo mappare una la cartella _C:\Progetti\MioProgetto_ all'interno del container, potremmo scrivere
+il parametro **-v** indica a Docker che si vuole lanciare sds-box mappando una cartella del proprio computer (volume locale) all'interno del container. Usando il comando mostrato qui sopra, mapperemo la cartella locale "Projects" e tutte le sue sottocartelle all'interno del container. Tutto il contenuto di Projects, così come gli elementi che creeremo nel volume mappato, direttamente dall'ambiente Jupyter, resteranno sul computer e non verranno persi una volta spento il container. 
+
+All'interno della cartella Projects fornita col repository troverete dei notebook di esempio. 
+
+Ovviamente possiamo mappare qualunque altra cartella! Se volessimo mappare la cartella _C:\Progetti\MioProgetto_ all'interno del container, potremmo scrivere:
 
 ```
 docker run -p 8888:8888 -v C:\Progetti\MioProgetto:/app/MioProgetto sds-box
@@ -48,14 +52,11 @@ docker run -p 8888:8888 -v C:\Progetti\MioProgetto:/app/MioProgetto sds-box
 
 In questo modo creeremo la cartella MioProgetto all'interno della working directory (app) di sds-box che sarà mappata con la corrispondente cartella locale. 
 
-Così facendo mapperemo la cartella "Projects" e tutte le sue sottocartelle all'interno del container e tutti i file e le cartelle che inseriremo in Projects resteranno in maniera persistente sulla nostra macchina. 
-All'interno della cartella Projects fornita col repository troverete dei notebook di esempio. 
-Ovviamente potete mappare qualunque altra cartella!
 
 <img src="screenshot_jupyter.png" alt="jupyter">
 
 ### Personalizzazione
-Il template è fatto in modo tale da poter essere personalizzato in modo piuttosto semplice. Aggiungi (o rimuovi!) i pacchetti che ti interessano modificando il file _requirements.txt_ e ricrea il container.
+Il template è fatto in modo tale da poter essere personalizzato in modo piuttosto semplice. Aggiungi (o rimuovi!) i pacchetti che ti interessano modificando il file _requirements.txt_ e ricrea il container col comanda _build_:
 
 ```
 docker build . -t sds-box
