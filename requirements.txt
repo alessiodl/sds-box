@@ -2,6 +2,7 @@ gdal
 pandas
 geopandas
 openpyxl
+dask
 plotly
 xarray
 rioxarray
