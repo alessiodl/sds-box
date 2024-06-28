@@ -1,6 +1,8 @@
 gdal
 pandas
 geopandas
+folium
+matplotlib
 openpyxl
 dask
 plotly
