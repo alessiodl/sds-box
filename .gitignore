@@ -1,0 +1,8 @@
+# Ignora tutti i file nella cartella Projects
+Projects/*
+
+# Tranne i file con estensione .ipynb
+!Projects/*.ipynb
+
+# e i file con estensione .py
+!Projects/*.py

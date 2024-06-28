@@ -3,6 +3,7 @@ pandas
 geopandas
 folium
 matplotlib
+mapclassify
 openpyxl
 dask
 plotly
