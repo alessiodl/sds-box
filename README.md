@@ -42,7 +42,7 @@ docker run -p 8888:8888 -v /Users/alessio/Desktop/sds-box/Projects:/app/Projects
 
 il parametro **-v** indica a Docker che si vuole lanciare sds-box mappando una cartella del proprio computer (volume locale) all'interno del container. Usando il comando mostrato qui sopra, mapperemo la cartella locale "Projects" e tutte le sue sottocartelle all'interno del container. Tutto il contenuto di Projects, così come gli elementi che creeremo nel volume mappato, direttamente dall'ambiente Jupyter, resteranno sul computer e non verranno persi una volta spento il container. 
 
-All'interno della cartella Projects fornita col repository troverete dei notebook di esempio. 
+> All'interno della cartella _Projects_ fornita col repository e mappata nell'esempio troverete dei notebook dimostrativi.  
 
 Ovviamente possiamo mappare qualunque altra cartella! Se volessimo mappare la cartella _C:\Progetti\MioProgetto_ all'interno del container, potremmo scrivere:
 
