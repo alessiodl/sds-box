@@ -1,5 +1,5 @@
 # Use an official GDAL image as the base image
-FROM ghcr.io/osgeo/gdal:ubuntu-small-3.9.0
+FROM ghcr.io/osgeo/gdal:ubuntu-small-3.9.1
 
 # install pip and lsb-release (optional) system package
 RUN apt-get update && apt-get -y install python3-pip python3-venv lsb-release --fix-missing && apt-get clean all
