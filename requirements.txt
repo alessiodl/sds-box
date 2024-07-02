@@ -11,6 +11,7 @@ xarray
 rioxarray
 pystac-client
 odc-stac
+openeo
 ipykernel
 jupyterlab
 distro
