@@ -12,6 +12,7 @@ rioxarray
 pystac-client
 odc-stac
 openeo
+copernicusmarine
 ipykernel
 jupyterlab
 distro
