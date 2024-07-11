@@ -16,4 +16,5 @@ copernicusmarine
 ipykernel
 jupyterlab
 ipywidgets
+jupyter-ai
 distro
