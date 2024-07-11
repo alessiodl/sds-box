@@ -13,6 +13,7 @@ pystac-client
 odc-stac
 openeo
 copernicusmarine
+earthengine-api
 ipykernel
 jupyterlab
 ipywidgets
