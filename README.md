@@ -6,7 +6,7 @@ Template per container orientato alla **Spatial Data Science** con Python, compr
  * JupyterLab containerizzato semplifica la condivisione e la collaborazione eliminando la necessità di configurare manualmente l'ambiente
 
 ### Requisiti
-L'unico requisito è avere Docker o Podman sul proprio computer. Nel caso si utilizzi Podman, l'unica accortezza richiesta è sostituire la parola _docker_ con la parola_podman_ nei comandi descritti in questa pagina. 
+L'unico requisito è avere Docker o Podman sul proprio computer. Nel caso si utilizzi Podman, l'unica accortezza richiesta è sostituire la parola _docker_ con la parola _podman_ nei comandi descritti in questa pagina. 
 
 ## Creazione del container
  * Lanciare Docker
